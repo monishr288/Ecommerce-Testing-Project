@@ -1,0 +1,43 @@
+MANUAL TEST CASES - CHECKOUT MODULE
+
+Project: E-Commerce Website Testing
+Application: SauceDemo
+
+TC010 - Verify Checkout Navigation
+Steps:
+1. Login with valid credentials.
+2. Add a product to the cart.
+3. Open the cart.
+4. Click Checkout.
+Expected Result: Checkout information page should open.
+Status: PASS
+
+TC011 - Enter Checkout Information
+Steps:
+1. Enter First Name.
+2. Enter Last Name.
+3. Enter Postal Code.
+4. Click Continue.
+Expected Result: Order summary page should appear.
+Status: PASS
+
+TC012 - Verify Order Summary
+Steps:
+1. Complete checkout information.
+2. Review the order summary.
+Expected Result: Product name and total price should be displayed correctly.
+Status: PASS
+
+TC013 - Complete Order
+Steps:
+1. Review the order summary.
+2. Click Finish.
+Expected Result: Order confirmation message should appear.
+Status: PASS
+
+TC014 - Verify Order Confirmation
+Steps:
+1. Complete the checkout process.
+2. Check the confirmation message.
+Expected Result: "Thank you for your order!" should be displayed.
+Status: PASS

@@ -1,0 +1,30 @@
+TEST SCENARIOS - E-COMMERCE WEBSITE
+
+Project: E-Commerce Website Testing
+Application: SauceDemo
+
+LOGIN MODULE
+TS001 - Verify login with valid credentials.
+TS002 - Verify login with invalid credentials.
+TS003 - Verify login with empty username.
+TS004 - Verify login with empty password.
+
+PRODUCT MODULE
+TS005 - Verify product listing.
+TS006 - Verify product sorting by price.
+
+CART MODULE
+TS007 - Verify adding a product to cart.
+TS008 - Verify product details in cart.
+TS009 - Verify removing a product from cart.
+
+CHECKOUT MODULE
+TS010 - Verify checkout navigation.
+TS011 - Verify checkout information.
+TS012 - Verify order summary.
+TS013 - Verify order completion.
+TS014 - Verify order confirmation.
+
+TOTAL TEST SCENARIOS: 14
+
+Testing Status: In Progress

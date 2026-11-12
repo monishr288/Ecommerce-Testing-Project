@@ -1,0 +1,40 @@
+MANUAL TEST CASES - PRODUCT AND CART MODULES
+
+Project: E-Commerce Website Testing
+Application: SauceDemo
+
+TC005 - Verify Product Listing
+Steps:
+1. Login with valid credentials.
+2. Open the Products page.
+Expected Result: Six products should be displayed.
+Status: PASS
+
+TC006 - Verify Product Sorting
+Steps:
+1. Open the Products page.
+2. Select Price (low to high).
+Expected Result: Products should be sorted from lowest to highest price.
+Status: PASS
+
+TC007 - Add Product to Cart
+Steps:
+1. Select a product.
+2. Click Add to Cart.
+Expected Result: Cart count should increase to 1.
+Status: PASS
+
+TC008 - Verify Cart Product
+Steps:
+1. Add a product to the cart.
+2. Open the cart.
+Expected Result: Selected product should be displayed.
+Status: PASS
+
+TC009 - Remove Product from Cart
+Steps:
+1. Add a product to the cart.
+2. Open the cart.
+3. Click Remove.
+Expected Result: Cart should become empty.
+Status: PASS

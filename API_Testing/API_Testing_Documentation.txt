@@ -1,0 +1,45 @@
+API TESTING DOCUMENTATION
+
+Project: E-Commerce Website Testing
+Tool: Postman
+API Used: JSONPlaceholder
+Base URL: https://jsonplaceholder.typicode.com
+
+1. GET REQUEST
+Endpoint: /posts/1
+Purpose: Retrieve an existing post.
+Expected Status Code: 200 OK
+Validation: Verify response ID and title.
+
+2. POST REQUEST
+Endpoint: /posts
+Purpose: Create a new post.
+Expected Status Code: 201 Created
+Validation: Verify title, userId and generated ID.
+
+3. PUT REQUEST
+Endpoint: /posts/1
+Purpose: Update an existing post.
+Expected Status Code: 200 OK
+Validation: Verify updated title and body.
+
+4. DELETE REQUEST
+Endpoint: /posts/1
+Purpose: Delete a post.
+Expected Status Code: 200 OK
+Validation: Verify the response.
+
+TEST EXECUTION
+GET: Passed
+POST: Passed
+PUT: Passed
+DELETE: Passed
+
+Latest Collection Runner Result:
+9 Passed
+0 Failed
+
+Note:
+JSONPlaceholder is a testing API.
+POST, PUT and DELETE operations are simulated.
+Changes are not permanently stored in a real database.

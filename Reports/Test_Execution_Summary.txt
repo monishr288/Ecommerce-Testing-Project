@@ -1,0 +1,26 @@
+TEST EXECUTION SUMMARY
+
+Project: E-Commerce Website Testing
+Application: SauceDemo
+Testing Type: Manual, Automation, API Testing
+Automation Tool: Selenium with Python
+Test Framework: Pytest
+API Testing Tool: Postman
+
+AUTOMATION TESTING:
+Total Selenium Scripts: 13
+Status: Executed successfully
+
+PYTEST:
+Total Test Cases: 4
+Passed: 4
+Failed: 0
+
+API TESTING:
+Methods Tested: GET, POST, PUT, DELETE
+Latest Collection Run: 9 Passed, 0 Failed
+
+BROWSER: Google Chrome
+OPERATING SYSTEM: Windows
+
+Overall Status: Testing in Progress

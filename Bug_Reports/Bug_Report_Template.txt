@@ -1,0 +1,31 @@
+# BUG REPORT TEMPLATE
+
+**Project:** E-Commerce Website Testing  
+**Application:** SauceDemo  
+**Module:**  
+**Bug ID:** BUG-001  
+**Bug Title:**  
+**Reported By:** Software Tester  
+**Date:**  
+
+## Bug Details
+
+**Severity:**  
+**Priority:**  
+**Environment:** Windows / Chrome  
+
+**Preconditions:**
+1. 
+
+**Steps to Reproduce:**
+1. 
+2. 
+3. 
+
+**Expected Result:**
+
+**Actual Result:**
+
+**Status:** New
+
+**Screenshot:** Attach screenshot if available.

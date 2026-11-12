@@ -1,0 +1,38 @@
+MANUAL TEST CASES - LOGIN MODULE
+
+Project: E-Commerce Website Testing
+Application: SauceDemo
+Module: Login
+
+TC001 - Valid Login
+Precondition: User is on the login page.
+Steps:
+1. Enter valid username.
+2. Enter valid password.
+3. Click Login.
+Expected Result: User should navigate to the Products page.
+Status: PASS
+
+TC002 - Invalid Password
+Steps:
+1. Enter valid username.
+2. Enter invalid password.
+3. Click Login.
+Expected Result: Error message should be displayed.
+Status: PASS
+
+TC003 - Empty Username
+Steps:
+1. Leave username empty.
+2. Enter password.
+3. Click Login.
+Expected Result: Username required message should appear.
+Status: PASS
+
+TC004 - Empty Password
+Steps:
+1. Enter username.
+2. Leave password empty.
+3. Click Login.
+Expected Result: Password required message should appear.
+Status: PASS
